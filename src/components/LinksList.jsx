@@ -1,5 +1,4 @@
-import LinkButton from "./components/LinkButton"
-import "./App.css"
+import LinkButton from "./LinkButton"
 
 const links = [ 
    { label: "Portfolio", href: "https://lina98st.github.io/alina.dev/"},
