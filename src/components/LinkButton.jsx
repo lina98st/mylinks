@@ -1,7 +1,9 @@
-  export default function LinkButton() {
+export default function LinkButton({ label, href }) {
   return (
     <div className="button">
-<button type="button">Click Me!</button>
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        {label}
+      </a>
     </div>
   )
 }
