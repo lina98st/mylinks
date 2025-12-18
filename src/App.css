@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
   margin: 0;
 padding: 0;
@@ -7,6 +21,12 @@ padding: 0;
 * {
   box-sizing: border-box;
 }
+
+.links-header {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+}
+
 
 .app {
   min-height: 100vh;
