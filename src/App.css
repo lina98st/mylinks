@@ -93,3 +93,25 @@ img {
   transform: translateY(0);
 }
 
+.button-darkmode button {
+  border-radius: 1.4rem;
+  margin-bottom: 0.5rem;
+  padding: 0.6rem 1.2rem;
+
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: #111111;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.button-darkmode button:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.button-darkmode button:active {
+  transform: scale(0.97);
+}
