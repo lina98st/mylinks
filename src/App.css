@@ -58,29 +58,38 @@ img {
 
 .button a {
   display: block;
+  width: 100%;
   max-width: 320px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 14px 18px;
-  border-radius: 12px;
-  font-weight: 600;
-  text-decoration: none;
-  color: white;
   margin-bottom: 1rem;
+  box-shadow: 10px 5px 5px black;
 
+  padding: 14px 18px;
+  text-align: center;
+  text-decoration: none;
 
-  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 
-  box-shadow: 0 6px 16px rgba(255, 65, 108, 0.35);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 14px;
+
+  backdrop-filter: blur(8px);
+
+  transition:
+    background 0.25s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .button a:hover {
+  background: rgba(255, 255, 255, 0.18);
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(255, 65, 108, 0.45);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 .button a:active {
   transform: translateY(0);
-  box-shadow: 0 6px 16px rgba(255, 65, 108, 0.35);
 }
+
