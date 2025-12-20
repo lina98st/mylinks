@@ -1,4 +1,4 @@
-import MyPhoto from "../assets/me2.jpeg"
+import MyPhoto from "../assets/me2.jpg"
 
 
 export default function ProfilePhoto() {
