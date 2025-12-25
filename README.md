@@ -18,8 +18,6 @@ JavaScript
 HTML  
 CSS  
 
-No TypeScript.  
-No UI frameworks.
 
 ## Features
 
