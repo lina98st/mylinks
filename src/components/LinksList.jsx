@@ -1,7 +1,7 @@
 import LinkButton from "./LinkButton"
 
 const links = [ 
-   { label: "Portfolio", href: "https://lina98st.github.io/alina.dev/"},
+   { label: "Portfolio", href: "https://lina98st.github.io/portfolio-under-construction/"},
       {  label: "GitHub", href: "https://github.com/lina98st" },
        {     label: "LinkedIn", href: "https://www.linkedin.com/in/alina-schmi/"},
          {    label: "Hashnode", href: "https://alinatech.hashnode.dev/"},
