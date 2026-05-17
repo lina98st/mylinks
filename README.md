@@ -2,8 +2,12 @@
 
 MyLinks is a personal links page built with React and Vite.
 
-It’s a small, focused project to showcase important links like portfolio, GitHub and social profiles in a clean and modern way.  
+It's a small, focused project to showcase important links like portfolio, GitHub and social profiles in a clean and modern way.  
 Inspired by tools like Linktree, but fully customizable, free and under my own control.
+
+## Live
+
+[mylinks-alina.netlify.app](https://mylinks-alina.netlify.app/)
 
 ## Why this project
 
@@ -17,7 +21,6 @@ Vite
 JavaScript  
 HTML  
 CSS  
-
 
 ## Features
 
@@ -43,7 +46,7 @@ npm run build
 
 ## Deployment
 
-The project is deployed as a static site.  
+The project is deployed as a static site on Netlify.  
 Assets like images and fonts are bundled locally to ensure correct paths and privacy friendly usage.
 
 ## Status
